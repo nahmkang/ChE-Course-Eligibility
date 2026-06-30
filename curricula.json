@@ -1,0 +1,1928 @@
+{
+  "semOrder": [
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "SUM",
+    "S7",
+    "S8"
+  ],
+  "semLabels": {
+    "S1": "Year 1 · Semester 1",
+    "S2": "Year 1 · Semester 2",
+    "S3": "Year 2 · Semester 1",
+    "S4": "Year 2 · Semester 2",
+    "S5": "Year 3 · Semester 1",
+    "S6": "Year 3 · Semester 2",
+    "SUM": "Summer (Year 3)",
+    "S7": "Year 4 · Semester 1",
+    "S8": "Year 4 · Semester 2"
+  },
+  "semCredits": {
+    "S1": 18,
+    "S2": 19,
+    "S3": 18,
+    "S4": 19,
+    "S5": 18,
+    "S6": 17,
+    "SUM": 2,
+    "S7": 17,
+    "S8": 19
+  },
+  "curricula": {
+    "68": {
+      "id": "68",
+      "name": "Curriculum 2025 Revised — Codes 68 and newer",
+      "shortName": "Code 68+",
+      "effective": "Effective 2/2025",
+      "idPrefixes": [
+        "68"
+      ],
+      "courses": [
+        {
+          "code": "LNG 120",
+          "name": "General English",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S1",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "MTH 10101",
+          "name": "Mathematics I",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S1",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "PHY 10301",
+          "name": "General Physics for Eng. Students I",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S1",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "PHY 10302",
+          "name": "General Physics for Eng. Students I (2)",
+          "credits": "-",
+          "creditValue": 0,
+          "sem": "S1",
+          "pre": [],
+          "co": [
+            "PHY 10301"
+          ]
+        },
+        {
+          "code": "PHY 10303",
+          "name": "General Physics for Eng. Students I (3)",
+          "credits": "-",
+          "creditValue": 0,
+          "sem": "S1",
+          "pre": [],
+          "co": [
+            "PHY 10301"
+          ]
+        },
+        {
+          "code": "PHY 191",
+          "name": "General Physics Laboratory I",
+          "credits": "1(0-2-2)",
+          "creditValue": 1,
+          "sem": "S1",
+          "pre": [],
+          "co": [
+            "PHY 10301"
+          ]
+        },
+        {
+          "code": "CHM 10301",
+          "name": "Fundamental Chemistry",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S1",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHM 160",
+          "name": "Chemistry Laboratory",
+          "credits": "1(0-3-2)",
+          "creditValue": 1,
+          "sem": "S1",
+          "pre": [],
+          "co": [
+            "CHM 10301"
+          ]
+        },
+        {
+          "code": "GEN 101",
+          "name": "Physical Education",
+          "credits": "1(0-2-2)",
+          "creditValue": 1,
+          "sem": "S1",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "GEN 111",
+          "name": "Man and Ethics of Living",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S1",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "LNG 220",
+          "name": "Academic English",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S2",
+          "pre": [
+            "LNG 120"
+          ],
+          "co": []
+        },
+        {
+          "code": "MTH 10201",
+          "name": "Mathematics II (1)",
+          "credits": "-",
+          "creditValue": 0,
+          "sem": "S2",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "MTH 10202",
+          "name": "Mathematics II (2)",
+          "credits": "-",
+          "creditValue": 0,
+          "sem": "S2",
+          "pre": [
+            "MTH 10101"
+          ],
+          "co": []
+        },
+        {
+          "code": "MTH 10203",
+          "name": "Mathematics II (3)",
+          "credits": "-",
+          "creditValue": 0,
+          "sem": "S2",
+          "pre": [
+            "MTH 10101"
+          ],
+          "co": []
+        },
+        {
+          "code": "PHY 10401",
+          "name": "General Physics for Eng. Students II",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S2",
+          "pre": [
+            "PHY 10301"
+          ],
+          "co": []
+        },
+        {
+          "code": "PHY 10402",
+          "name": "General Physics for Eng. Students II (2)",
+          "credits": "-",
+          "creditValue": 0,
+          "sem": "S2",
+          "pre": [],
+          "co": [
+            "PHY 10401"
+          ]
+        },
+        {
+          "code": "PHY 10403",
+          "name": "General Physics for Eng. Students II (3)",
+          "credits": "-",
+          "creditValue": 0,
+          "sem": "S2",
+          "pre": [],
+          "co": [
+            "PHY 10401"
+          ]
+        },
+        {
+          "code": "PHY 192",
+          "name": "General Physics Laboratory II",
+          "credits": "1(0-2-2)",
+          "creditValue": 1,
+          "sem": "S2",
+          "pre": [],
+          "co": [
+            "PHY 10401"
+          ]
+        },
+        {
+          "code": "GEN 121",
+          "name": "Learning and Problem Solving Skills",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S2",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "MEE 119",
+          "name": "Mechanical Engineering Drawing",
+          "credits": "3(2-3-4)",
+          "creditValue": 3,
+          "sem": "S2",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHE 10301",
+          "name": "Material and Energy Balances I",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S2",
+          "pre": [
+            "CHM 10301"
+          ],
+          "co": []
+        },
+        {
+          "code": "CHE 10302",
+          "name": "Material and Energy Balances II",
+          "credits": "-",
+          "creditValue": 0,
+          "sem": "S2",
+          "pre": [
+            "CHM 10301"
+          ],
+          "co": []
+        },
+        {
+          "code": "CHE 214",
+          "name": "Physical Chemistry",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S2",
+          "pre": [
+            "CHM 10301"
+          ],
+          "co": []
+        },
+        {
+          "code": "LNG 223",
+          "name": "English for Workplace Communication",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S3",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "MTH 20101",
+          "name": "Mathematics III (1)",
+          "credits": "1Cr",
+          "creditValue": 1,
+          "sem": "S3",
+          "pre": [
+            "MTH 10202",
+            "MTH 10203"
+          ],
+          "co": []
+        },
+        {
+          "code": "MTH 20102",
+          "name": "Mathematics III (2)",
+          "credits": "2Cr",
+          "creditValue": 2,
+          "sem": "S3",
+          "pre": [
+            "MTH 10101"
+          ],
+          "co": []
+        },
+        {
+          "code": "MEE 214",
+          "name": "Engineering Mechanics",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S3",
+          "pre": [
+            "PHY 10301"
+          ],
+          "co": []
+        },
+        {
+          "code": "CPE 100",
+          "name": "Computer Programming for Engineers",
+          "credits": "3(2-2-6)",
+          "creditValue": 3,
+          "sem": "S3",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHE 210",
+          "name": "Organic Chemistry",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S3",
+          "pre": [
+            "CHM 10301"
+          ],
+          "co": []
+        },
+        {
+          "code": "CHE 24101",
+          "name": "Thermodynamics I",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S3",
+          "pre": [
+            "CHE 10301",
+            "CHE 10302"
+          ],
+          "co": []
+        },
+        {
+          "code": "GEN 231",
+          "name": "Miracle of Thinking",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S3",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "MTH 303",
+          "name": "Numerical Methods",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S4",
+          "pre": [
+            "MTH 20101",
+            "MTH 20102"
+          ],
+          "co": []
+        },
+        {
+          "code": "EEE 102",
+          "name": "Electrical Power Engineering",
+          "credits": "3(2-3-4)",
+          "creditValue": 3,
+          "sem": "S4",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHE 212",
+          "name": "Organic Chemistry Laboratory",
+          "credits": "1(0-3-2)",
+          "creditValue": 1,
+          "sem": "S4",
+          "pre": [
+            "CHE 210"
+          ],
+          "co": []
+        },
+        {
+          "code": "CHE 23201",
+          "name": "Momentum, Heat and Mass Transfer I",
+          "credits": "1(1-0-2)",
+          "creditValue": 1,
+          "sem": "S4",
+          "pre": [
+            "CHE 10301",
+            "PHY 10301"
+          ],
+          "co": []
+        },
+        {
+          "code": "CHE 23202",
+          "name": "Momentum, Heat and Mass Transfer II",
+          "credits": "1(1-0-2)",
+          "creditValue": 1,
+          "sem": "S4",
+          "pre": [
+            "CHE 10301",
+            "CHE 10302",
+            "PHY 10303"
+          ],
+          "co": []
+        },
+        {
+          "code": "CHE 23203",
+          "name": "Momentum, Heat and Mass Transfer III",
+          "credits": "1(1-0-2)",
+          "creditValue": 1,
+          "sem": "S4",
+          "pre": [
+            "CHE 10301"
+          ],
+          "co": []
+        },
+        {
+          "code": "CHE 242",
+          "name": "Thermodynamics II",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S4",
+          "pre": [
+            "CHE 24101"
+          ],
+          "co": []
+        },
+        {
+          "code": "GEN 121-S4",
+          "name": "Learning & Problem Solving Skills (GE)",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S4",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "GEN 351",
+          "name": "Modern Management and Leadership",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S5",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "PRE 372",
+          "name": "Probability and Statistics for Engineers",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S5",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHE 333",
+          "name": "Fluid Mechanics and Equipment Design",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S5",
+          "pre": [
+            "CHE 23201"
+          ],
+          "co": []
+        },
+        {
+          "code": "CHE 33401",
+          "name": "Heat Transfer and Equipment Design (1)",
+          "credits": "-",
+          "creditValue": 0,
+          "sem": "S5",
+          "pre": [
+            "CHE 23201",
+            "CHE 23202"
+          ],
+          "co": []
+        },
+        {
+          "code": "CHE 33403",
+          "name": "Heat Transfer and Equipment Design (3)",
+          "credits": "-",
+          "creditValue": 0,
+          "sem": "S5",
+          "pre": [
+            "CHE 23201",
+            "CHE 23202",
+            "CHE 23203"
+          ],
+          "co": []
+        },
+        {
+          "code": "CHE 343",
+          "name": "Kinetics and Reactor Design",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S5",
+          "pre": [
+            "CHE 242"
+          ],
+          "co": []
+        },
+        {
+          "code": "CHE 471",
+          "name": "Engineering Materials and Selection",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S5",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "GEN 231-S5",
+          "name": "Miracle of Thinking (GE)",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S5",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "GEN-ELEC-1",
+          "name": "General Elective I",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S6",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "PRE 380",
+          "name": "Engineering Economics",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S6",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHE 335",
+          "name": "Mass Transfer and Equipment Design",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S6",
+          "pre": [
+            "CHE 333"
+          ],
+          "co": []
+        },
+        {
+          "code": "CHE 451",
+          "name": "Process Equipment Design",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S6",
+          "pre": [
+            "CHE 33401",
+            "CHE 343"
+          ],
+          "co": []
+        },
+        {
+          "code": "CHE 461",
+          "name": "Process Dynamics and Control",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S6",
+          "pre": [
+            "CHE 343"
+          ],
+          "co": []
+        },
+        {
+          "code": "CHE 481",
+          "name": "Chemical Engineering Laboratory I",
+          "credits": "2(1-3-4)",
+          "creditValue": 2,
+          "sem": "S6",
+          "pre": [
+            "CHE 333"
+          ],
+          "co": []
+        },
+        {
+          "code": "CHE 300",
+          "name": "Industrial Training",
+          "credits": "2(S/U)",
+          "creditValue": 2,
+          "sem": "SUM",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHE-ELEC-1",
+          "name": "Chemical Engineering Elective I",
+          "credits": "3(3-0-9)",
+          "creditValue": 3,
+          "sem": "S7",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "GEN-ELEC-2",
+          "name": "General Elective II",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S7",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "FREE-ELEC-1",
+          "name": "Free Elective I",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S7",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHE 473",
+          "name": "Chemical Plant Safety",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S7",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHE 482",
+          "name": "Chemical Engineering Laboratory II",
+          "credits": "2(1-3-4)",
+          "creditValue": 2,
+          "sem": "S7",
+          "pre": [
+            "CHE 481"
+          ],
+          "co": []
+        },
+        {
+          "code": "CHE 483",
+          "name": "Seminar",
+          "credits": "1(0-2-3)",
+          "creditValue": 1,
+          "sem": "S7",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHE 484",
+          "name": "Chemical Engineering Project I",
+          "credits": "2(0-4-6)",
+          "creditValue": 2,
+          "sem": "S7",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "GEN 241",
+          "name": "Beauty of Life",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S8",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "GEN-ELEC-3",
+          "name": "General Elective III",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S8",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "FREE-ELEC-2",
+          "name": "Free Elective II",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S8",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHE-ELEC-2",
+          "name": "Chemical Engineering Elective II",
+          "credits": "3(3-0-9)",
+          "creditValue": 3,
+          "sem": "S8",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHE 472",
+          "name": "Environmental Engineering",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S8",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHE 452",
+          "name": "Chemical Engineering Plant Design",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S8",
+          "pre": [
+            "CHE 451"
+          ],
+          "co": []
+        },
+        {
+          "code": "CHE 454",
+          "name": "Chemical Engineering Design Project",
+          "credits": "3(0-6-9)",
+          "creditValue": 3,
+          "sem": "S8",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHE 485",
+          "name": "Chemical Engineering Project II",
+          "credits": "1(0-2-3)",
+          "creditValue": 1,
+          "sem": "S8",
+          "pre": [
+            "CHE 484"
+          ],
+          "co": []
+        }
+      ],
+      "minPrefixCatchAll": 68
+    },
+    "67": {
+      "id": "67",
+      "name": "Curriculum 2021 Revised 2025 — Code 67xx",
+      "shortName": "Code 67",
+      "effective": "Effective 1/2024",
+      "idPrefixes": [
+        "67"
+      ],
+      "courses": [
+        {
+          "code": "LNG 120",
+          "name": "General English",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S1",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "MTH 10101-2",
+          "name": "Mathematics I",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S1",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "PHY 10301-3",
+          "name": "General Physics for Eng. Students I",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S1",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "PHY 191",
+          "name": "General Physics Laboratory I",
+          "credits": "1(0-2-2)",
+          "creditValue": 1,
+          "sem": "S1",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHM 10301-3",
+          "name": "Fundamental Chemistry",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S1",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHM 160",
+          "name": "Chemistry Laboratory",
+          "credits": "1(0-3-2)",
+          "creditValue": 1,
+          "sem": "S1",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "GEN 101",
+          "name": "Physical Education",
+          "credits": "1(0-2-2)",
+          "creditValue": 1,
+          "sem": "S1",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "GEN 111",
+          "name": "Man and Ethics of Living",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S1",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "LNG 220",
+          "name": "Academic English",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S2",
+          "pre": [
+            "LNG 120"
+          ],
+          "co": []
+        },
+        {
+          "code": "MTH 10201",
+          "name": "Mathematics II (1)",
+          "credits": "-",
+          "creditValue": 0,
+          "sem": "S2",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "MTH 10202",
+          "name": "Mathematics II (2)",
+          "credits": "-",
+          "creditValue": 0,
+          "sem": "S2",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "MTH 10203",
+          "name": "Mathematics II (3)",
+          "credits": "-",
+          "creditValue": 0,
+          "sem": "S2",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "PHY 10401-3",
+          "name": "General Physics for Eng. Students II",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S2",
+          "pre": [
+            "PHY 10301-3"
+          ],
+          "co": []
+        },
+        {
+          "code": "PHY 192",
+          "name": "General Physics Laboratory II",
+          "credits": "1(0-2-2)",
+          "creditValue": 1,
+          "sem": "S2",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "MEE 119",
+          "name": "Mechanical Engineering Drawing",
+          "credits": "3(2-3-4)",
+          "creditValue": 3,
+          "sem": "S2",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHE 103",
+          "name": "Material and Energy Balances",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S2",
+          "pre": [
+            "CHM 10301-3"
+          ],
+          "co": []
+        },
+        {
+          "code": "CHE 241",
+          "name": "Thermodynamics I",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S2",
+          "pre": [
+            "CHE 103"
+          ],
+          "co": []
+        },
+        {
+          "code": "CHE 214",
+          "name": "Physical Chemistry",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S2",
+          "pre": [
+            "CHM 10301-3"
+          ],
+          "co": []
+        },
+        {
+          "code": "LNG 223",
+          "name": "English for Workplace Communication",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S3",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "MTH 20101",
+          "name": "Mathematics III (1)",
+          "credits": "1Cr",
+          "creditValue": 1,
+          "sem": "S3",
+          "pre": [
+            "MTH 10202",
+            "MTH 10203"
+          ],
+          "co": []
+        },
+        {
+          "code": "MTH 20102",
+          "name": "Mathematics III (2)",
+          "credits": "2Cr",
+          "creditValue": 2,
+          "sem": "S3",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "MEE 214",
+          "name": "Engineering Mechanics",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S3",
+          "pre": [
+            "PHY 10301-3"
+          ],
+          "co": []
+        },
+        {
+          "code": "CPE 100",
+          "name": "Computer Programming for Engineers",
+          "credits": "3(2-2-6)",
+          "creditValue": 3,
+          "sem": "S3",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHE 210",
+          "name": "Organic Chemistry",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S3",
+          "pre": [
+            "CHM 10301-3"
+          ],
+          "co": []
+        },
+        {
+          "code": "CHE 232",
+          "name": "Momentum, Heat & Mass Transfer",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S3",
+          "pre": [
+            "CHE 103"
+          ],
+          "co": []
+        },
+        {
+          "code": "CHE 242",
+          "name": "Thermodynamics II",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S3",
+          "pre": [
+            "CHE 241"
+          ],
+          "co": []
+        },
+        {
+          "code": "GEN 121",
+          "name": "Learning and Problem Solving Skills",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S3",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "MTH 303",
+          "name": "Numerical Methods",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S4",
+          "pre": [
+            "MTH 20101",
+            "MTH 20102"
+          ],
+          "co": []
+        },
+        {
+          "code": "EEE 102",
+          "name": "Electrical Power Engineering",
+          "credits": "3(2-3-4)",
+          "creditValue": 3,
+          "sem": "S4",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHE 212",
+          "name": "Organic Chemistry Laboratory",
+          "credits": "1(0-3-2)",
+          "creditValue": 1,
+          "sem": "S4",
+          "pre": [
+            "CHE 210"
+          ],
+          "co": []
+        },
+        {
+          "code": "PRE 372",
+          "name": "Probability and Statistics for Engineers",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S4",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHE 333",
+          "name": "Fluid Mechanics and Equipment Design",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S4",
+          "pre": [
+            "CHE 232"
+          ],
+          "co": []
+        },
+        {
+          "code": "CHE 334",
+          "name": "Heat Transfer and Equipment Design",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S4",
+          "pre": [
+            "CHE 232"
+          ],
+          "co": []
+        },
+        {
+          "code": "CHE 343",
+          "name": "Kinetics and Reactor Design",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S4",
+          "pre": [
+            "CHE 242"
+          ],
+          "co": []
+        },
+        {
+          "code": "GEN 121-S4",
+          "name": "Learning & Problem Solving Skills (GE)",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S4",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "GEN 231",
+          "name": "Miracle of Thinking",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S5",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "GEN 351",
+          "name": "Modern Management and Leadership",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S5",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHE 335",
+          "name": "Mass Transfer and Equipment Design",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S5",
+          "pre": [
+            "CHE 333",
+            "CHE 334"
+          ],
+          "co": []
+        },
+        {
+          "code": "CHE 451",
+          "name": "Process Equipment Design",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S5",
+          "pre": [
+            "CHE 334",
+            "CHE 343"
+          ],
+          "co": []
+        },
+        {
+          "code": "CHE 461",
+          "name": "Process Dynamics and Control",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S5",
+          "pre": [
+            "CHE 343"
+          ],
+          "co": []
+        },
+        {
+          "code": "CHE 471",
+          "name": "Engineering Materials and Selection",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S5",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHE 481",
+          "name": "Chemical Engineering Laboratory I",
+          "credits": "2(1-3-4)",
+          "creditValue": 2,
+          "sem": "S5",
+          "pre": [
+            "CHE 333"
+          ],
+          "co": []
+        },
+        {
+          "code": "GEN-ELEC-1",
+          "name": "General Elective I",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S6",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "PRE 380",
+          "name": "Engineering Economics",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S6",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "GEN 241",
+          "name": "Beauty of Life",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S6",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHE 473",
+          "name": "Chemical Plant Safety",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S6",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHE 482",
+          "name": "Chemical Engineering Laboratory II",
+          "credits": "2(1-3-4)",
+          "creditValue": 2,
+          "sem": "S6",
+          "pre": [
+            "CHE 481"
+          ],
+          "co": []
+        },
+        {
+          "code": "CHE 483",
+          "name": "Seminar",
+          "credits": "1(0-2-3)",
+          "creditValue": 1,
+          "sem": "S6",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHE 452",
+          "name": "Chemical Engineering Plant Design",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S6",
+          "pre": [
+            "CHE 451"
+          ],
+          "co": []
+        },
+        {
+          "code": "CHE 300",
+          "name": "Industrial Training",
+          "credits": "2(S/U)",
+          "creditValue": 2,
+          "sem": "SUM",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHE-ELEC-1",
+          "name": "Chemical Engineering Elective I",
+          "credits": "3(3-0-9)",
+          "creditValue": 3,
+          "sem": "S7",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "GEN-ELEC-2",
+          "name": "General Elective II",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S7",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "FREE-ELEC-1",
+          "name": "Free Elective I",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S7",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHE 472",
+          "name": "Environmental Engineering",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S7",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHE 484",
+          "name": "Chemical Engineering Project I",
+          "credits": "2(0-4-6)",
+          "creditValue": 2,
+          "sem": "S7",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "GEN-ELEC-3",
+          "name": "General Elective III",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S8",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "FREE-ELEC-2",
+          "name": "Free Elective II",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S8",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHE-ELEC-2",
+          "name": "Chemical Engineering Elective II",
+          "credits": "3(3-0-9)",
+          "creditValue": 3,
+          "sem": "S8",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHE 454",
+          "name": "Chemical Engineering Design Project",
+          "credits": "3(0-6-9)",
+          "creditValue": 3,
+          "sem": "S8",
+          "pre": [
+            "CHE 452"
+          ],
+          "co": []
+        },
+        {
+          "code": "CHE 485",
+          "name": "Chemical Engineering Project II",
+          "credits": "1(0-2-3)",
+          "creditValue": 1,
+          "sem": "S8",
+          "pre": [
+            "CHE 484"
+          ],
+          "co": []
+        }
+      ]
+    },
+    "6566": {
+      "id": "6566",
+      "name": "Curriculum 2021 Revised 2025 — Codes 65xx, 66xx",
+      "shortName": "Code 65–66",
+      "effective": "Effective 2/2025",
+      "idPrefixes": [
+        "65",
+        "66"
+      ],
+      "courses": [
+        {
+          "code": "LNG 120",
+          "name": "General English",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S1",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "MTH 10101-2",
+          "name": "Mathematics I",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S1",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "PHY 10301-3",
+          "name": "General Physics for Eng. Students I",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S1",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "PHY 191",
+          "name": "General Physics Laboratory I",
+          "credits": "1(0-2-2)",
+          "creditValue": 1,
+          "sem": "S1",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHM 10301-3",
+          "name": "Fundamental Chemistry",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S1",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHM 160",
+          "name": "Chemistry Laboratory",
+          "credits": "1(0-3-2)",
+          "creditValue": 1,
+          "sem": "S1",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "GEN 101",
+          "name": "Physical Education",
+          "credits": "1(0-2-2)",
+          "creditValue": 1,
+          "sem": "S1",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "GEN 111",
+          "name": "Man and Ethics of Living",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S1",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "LNG 220",
+          "name": "Academic English",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S2",
+          "pre": [
+            "LNG 120"
+          ],
+          "co": []
+        },
+        {
+          "code": "MTH 10201-3",
+          "name": "Mathematics II",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S2",
+          "pre": [
+            "MTH 10101-2"
+          ],
+          "co": []
+        },
+        {
+          "code": "PHY 10401-3",
+          "name": "General Physics for Eng. Students II",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S2",
+          "pre": [
+            "PHY 10301-3"
+          ],
+          "co": []
+        },
+        {
+          "code": "PHY 192",
+          "name": "General Physics Laboratory II",
+          "credits": "1(0-2-2)",
+          "creditValue": 1,
+          "sem": "S2",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "MEE 119",
+          "name": "Mechanical Engineering Drawing",
+          "credits": "3(2-3-4)",
+          "creditValue": 3,
+          "sem": "S2",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHE 103",
+          "name": "Material and Energy Balances",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S2",
+          "pre": [
+            "CHM 10301-3"
+          ],
+          "co": []
+        },
+        {
+          "code": "CHE 241",
+          "name": "Thermodynamics I",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S2",
+          "pre": [
+            "CHE 103"
+          ],
+          "co": []
+        },
+        {
+          "code": "CHE 214",
+          "name": "Physical Chemistry",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S2",
+          "pre": [
+            "CHM 10301-3"
+          ],
+          "co": []
+        },
+        {
+          "code": "LNG 223",
+          "name": "English for Workplace Communication",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S3",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "MTH 20101-2",
+          "name": "Mathematics III",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S3",
+          "pre": [
+            "MTH 10201-3"
+          ],
+          "co": []
+        },
+        {
+          "code": "MEE 214",
+          "name": "Engineering Mechanics",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S3",
+          "pre": [
+            "PHY 10301-3"
+          ],
+          "co": []
+        },
+        {
+          "code": "CPE 100",
+          "name": "Computer Programming for Engineers",
+          "credits": "3(2-2-6)",
+          "creditValue": 3,
+          "sem": "S3",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHE 210",
+          "name": "Organic Chemistry",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S3",
+          "pre": [
+            "CHM 10301-3"
+          ],
+          "co": []
+        },
+        {
+          "code": "CHE 232",
+          "name": "Momentum, Heat & Mass Transfer",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S3",
+          "pre": [
+            "CHE 103"
+          ],
+          "co": []
+        },
+        {
+          "code": "CHE 242",
+          "name": "Thermodynamics II",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S3",
+          "pre": [
+            "CHE 241"
+          ],
+          "co": []
+        },
+        {
+          "code": "GEN 121",
+          "name": "Learning and Problem Solving Skills",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S3",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "MTH 303",
+          "name": "Numerical Methods",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S4",
+          "pre": [
+            "MTH 20101-2"
+          ],
+          "co": []
+        },
+        {
+          "code": "EEE 102",
+          "name": "Electrical Power Engineering",
+          "credits": "3(2-3-4)",
+          "creditValue": 3,
+          "sem": "S4",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHE 212",
+          "name": "Organic Chemistry Laboratory",
+          "credits": "1(0-3-2)",
+          "creditValue": 1,
+          "sem": "S4",
+          "pre": [
+            "CHE 210"
+          ],
+          "co": []
+        },
+        {
+          "code": "PRE 372",
+          "name": "Probability and Statistics for Engineers",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S4",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHE 333",
+          "name": "Fluid Mechanics and Equipment Design",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S4",
+          "pre": [
+            "CHE 232"
+          ],
+          "co": []
+        },
+        {
+          "code": "CHE 334",
+          "name": "Heat Transfer and Equipment Design",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S4",
+          "pre": [
+            "CHE 232"
+          ],
+          "co": []
+        },
+        {
+          "code": "CHE 343",
+          "name": "Kinetics and Reactor Design",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S4",
+          "pre": [
+            "CHE 242"
+          ],
+          "co": []
+        },
+        {
+          "code": "GEN 121-S4",
+          "name": "Learning & Problem Solving Skills (GE)",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S4",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "GEN 231",
+          "name": "Miracle of Thinking",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S5",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "GEN 351",
+          "name": "Modern Management and Leadership",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S5",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHE 335",
+          "name": "Mass Transfer and Equipment Design",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S5",
+          "pre": [
+            "CHE 333",
+            "CHE 334"
+          ],
+          "co": []
+        },
+        {
+          "code": "CHE 451",
+          "name": "Process Equipment Design",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S5",
+          "pre": [
+            "CHE 334",
+            "CHE 343"
+          ],
+          "co": []
+        },
+        {
+          "code": "CHE 461",
+          "name": "Process Dynamics and Control",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S5",
+          "pre": [
+            "CHE 343"
+          ],
+          "co": []
+        },
+        {
+          "code": "CHE 471",
+          "name": "Engineering Materials and Selection",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S5",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHE 481",
+          "name": "Chemical Engineering Laboratory I",
+          "credits": "2(1-3-4)",
+          "creditValue": 2,
+          "sem": "S5",
+          "pre": [
+            "CHE 333"
+          ],
+          "co": []
+        },
+        {
+          "code": "GEN-ELEC-1",
+          "name": "General Elective I",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S6",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "PRE 380",
+          "name": "Engineering Economics",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S6",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "GEN 241",
+          "name": "Beauty of Life",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S6",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHE 473",
+          "name": "Chemical Plant Safety",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S6",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHE 482",
+          "name": "Chemical Engineering Laboratory II",
+          "credits": "2(1-3-4)",
+          "creditValue": 2,
+          "sem": "S6",
+          "pre": [
+            "CHE 481"
+          ],
+          "co": []
+        },
+        {
+          "code": "CHE 483",
+          "name": "Seminar",
+          "credits": "1(0-2-3)",
+          "creditValue": 1,
+          "sem": "S6",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHE 452",
+          "name": "Chemical Engineering Plant Design",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S6",
+          "pre": [
+            "CHE 451"
+          ],
+          "co": []
+        },
+        {
+          "code": "CHE 300",
+          "name": "Industrial Training",
+          "credits": "2(S/U)",
+          "creditValue": 2,
+          "sem": "SUM",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHE-ELEC-1",
+          "name": "Chemical Engineering Elective I",
+          "credits": "3(3-0-9)",
+          "creditValue": 3,
+          "sem": "S7",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "GEN-ELEC-2",
+          "name": "General Elective II",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S7",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "FREE-ELEC-1",
+          "name": "Free Elective I",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S7",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHE 472",
+          "name": "Environmental Engineering",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S7",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHE 484",
+          "name": "Chemical Engineering Project I",
+          "credits": "2(0-4-6)",
+          "creditValue": 2,
+          "sem": "S7",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "GEN-ELEC-3",
+          "name": "General Elective III",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S8",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "FREE-ELEC-2",
+          "name": "Free Elective II",
+          "credits": "3(3-0-6)",
+          "creditValue": 3,
+          "sem": "S8",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHE-ELEC-2",
+          "name": "Chemical Engineering Elective II",
+          "credits": "3(3-0-9)",
+          "creditValue": 3,
+          "sem": "S8",
+          "pre": [],
+          "co": []
+        },
+        {
+          "code": "CHE 454",
+          "name": "Chemical Engineering Design Project",
+          "credits": "3(0-6-9)",
+          "creditValue": 3,
+          "sem": "S8",
+          "pre": [
+            "CHE 452"
+          ],
+          "co": []
+        },
+        {
+          "code": "CHE 485",
+          "name": "Chemical Engineering Project II",
+          "credits": "1(0-2-3)",
+          "creditValue": 1,
+          "sem": "S8",
+          "pre": [
+            "CHE 484"
+          ],
+          "co": []
+        }
+      ]
+    }
+  }
+}
